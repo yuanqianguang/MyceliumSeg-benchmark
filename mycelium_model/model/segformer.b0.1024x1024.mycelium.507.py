@@ -1,8 +1,8 @@
 _base_ = [
-    '../../_base_/models/segformer.py',
+    '../../local_configs/_base_/models/segformer.py',
     '../dataset/EPA_mycelium.py',
-    '../../_base_/default_runtime.py',
-    '../../_base_/schedules/schedule_mycelium1024x1024.py'
+    '../../local_configs/_base_/default_runtime.py',
+    '../../local_configs/_base_/schedules/schedule_mycelium1024x1024.py'
     # '../../_base_/schedules/schedule_mycelium.py'
     # '../../_base_/schedules/schedule_160k_adamw.py'
 ]
