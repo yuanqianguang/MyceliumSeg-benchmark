@@ -1,5 +1,5 @@
 _base_ = [
-    '../datasets/EPA_mycelium.py',
+    '../dataset/EPA_mycelium.py',
     '../../local_configs/_base_/default_runtime.py',
     '../../local_configs/_base_/schedules/schedule_mycelium1024x1024.py'
     # '../../_base_/schedules/schedule_mycelium.py'
