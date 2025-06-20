@@ -1,6 +1,6 @@
 _base_ = [
     '../../_base_/models/segformer.py',
-    '../../_base_/datasets/EPA_mycelium.py',
+    '../dataset/EPA_mycelium.py',
     '../../_base_/default_runtime.py',
     '../../_base_/schedules/schedule_mycelium1024x1024.py'
     # '../../_base_/schedules/schedule_mycelium.py'
