@@ -40,19 +40,9 @@ wait_for_gpus "$CUDA_VISIBLE_DEVICES"
 
 export TMPDIR='/data1/yuanqianguang/tmp'
 
-# bash dist_train.sh /data1/yuanqianguang/_mushroom/model/transformer_model/mycelium_mmseg_code/exp/multi_model/segformer.b0.1024x1024.mycelium.507.py 4 "/data1/yuanqianguang/_mushroom/model/transformer_model/mycelium_mmseg_code/work_dirs/segformer"
+# bash dist_train.sh /data1/yuanqianguang/_mushroom/model/transformer_model/mycelium_mmseg_code/mycelium_model/model/deeplabv3_r50-d8.py 4 "/data1/yuanqianguang/_mushroom/model/transformer_model/mycelium_mmseg_code/work_dirs/deeplabv3_r50-d8"
 
-# bash dist_train.sh /data1/yuanqianguang/_mushroom/model/transformer_model/mycelium_mmseg_code/exp/multi_model/deeplabv3_r50-d8.py 4 "/data1/yuanqianguang/_mushroom/model/transformer_model/mycelium_mmseg_code/work_dirs/deeplabv3_r50-d8"
+# bash dist_train.sh /data1/yuanqianguang/_mushroom/model/transformer_model/mycelium_mmseg_code/mycelium_model/model/pspnet_unet_s5-d16.py 4 "/data1/yuanqianguang/_mushroom/model/transformer_model/mycelium_mmseg_code/work_dirs/pspnet_unet_s5-d16"
 
-# bash dist_train.sh /data1/yuanqianguang/_mushroom/model/transformer_model/mycelium_mmseg_code/exp/multi_model/pspnet_unet_s5-d16.py 4 "/data1/yuanqianguang/_mushroom/model/transformer_model/mycelium_mmseg_code/work_dirs/pspnet_unet_s5-d16"
-
-
-
-# bash dist_train.sh /data1/yuanqianguang/_mushroom/model/transformer_model/mycelium_mmseg_code/exp/multi_model/segformer.b2.1024x1024.city.160k.py 4 "/data1/yuanqianguang/_mushroom/model/transformer_model/mycelium_mmseg_code/work_dirs/segformerb2"
-
-# bash dist_train.sh /data1/yuanqianguang/_mushroom/model/transformer_model/mycelium_mmseg_code/exp/multi_model/segformer.b3.1024x1024.city.160k.py 4 "/data1/yuanqianguang/_mushroom/model/transformer_model/mycelium_mmseg_code/work_dirs/segformerb3"
-
-# bash dist_train.sh /data1/yuanqianguang/_mushroom/model/transformer_model/mycelium_mmseg_code/exp/multi_model/segformer.b4.1024x1024.city.160k.py 4 "/data1/yuanqianguang/_mushroom/model/transformer_model/mycelium_mmseg_code/work_dirs/segformerb4"
-
-bash dist_train.sh /data1/yuanqianguang/_mushroom/model/transformer_model/mycelium_mmseg_code/exp/multi_model/segformer.b5.1024x1024.city.160k.py 4 "/data1/yuanqianguang/_mushroom/model/transformer_model/mycelium_mmseg_code/work_dirs/segformerb5"
+bash dist_train.sh /data1/yuanqianguang/_mushroom/model/transformer_model/mycelium_mmseg_code/mycelium_model/model/segformer.b0.1024x1024.city.160k.py 4 "/data1/yuanqianguang/_mushroom/model/transformer_model/mycelium_mmseg_code/work_dirs/segformerb0"
 
